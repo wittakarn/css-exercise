@@ -44,43 +44,14 @@
     margin: 12px 25%;
 }
 
-.menu__icon--dashboard::before {
-    content: "\f009";
-}
-
-.menu__icon--user::before {
-    content: "\f007";
-}
-
-.menu__icon--clipboard::before {
-    content: "\f328";
-}
-
-.menu__icon--clone::before {
-    content: "\f24d";
-}
-
-.menu__icon--dot-circle::before {
-    content: "\f192";
-}
-
-.menu__icon--map::before {
-    content: "\f041";
-}
-
-.menu__icon--bell::before {
-    content: "\f0f3";
-}
-
-.menu__icon--cube::before {
-    top: 15px;
-    content: "\f1b2";
-}
-
 .menu__item--footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+.menu__icon--footer::before {
+    top: 15px;
 }
 
 @media only screen and (max-width: 1100px) {

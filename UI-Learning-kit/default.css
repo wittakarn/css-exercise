@@ -83,3 +83,91 @@ h3 {
     display: inline-block;
     white-space: normal;
 }
+
+.icon--search::before {
+    content: "\f002";
+}
+
+.icon--dashboard::before {
+    content: "\f009";
+}
+
+.icon--user::before {
+    content: "\f007";
+}
+
+.icon--clipboard::before {
+    content: "\f328";
+}
+
+.icon--clone::before {
+    content: "\f24d";
+}
+
+.icon--dot-circle::before {
+    content: "\f192";
+}
+
+.icon--map::before {
+    content: "\f041";
+}
+
+.icon--bell::before {
+    content: "\f0f3";
+}
+
+.icon--cube::before {
+    content: "\f1b2";
+}
+
+.icon--clone::before {
+    content: "\f24d";
+}
+
+.icon--home::before {
+    content: "\f015";
+}
+
+.icon--alert-circle::before {
+    content: "\f06a";
+}
+
+.icon--twitter::before {
+    content: "\f044";
+}
+
+.icon--alert::before {
+    content: "\f071";
+}
+
+.icon--calendar::before {
+    content: "\f073";
+}
+
+.icon--tag::before {
+    content: "\f02b";
+}
+
+.icon--clock::before {
+    content: "\f017";
+}
+
+.status__detail--alert::before {
+    content: "\f071";
+    color: rgb(233, 74, 74);
+}
+
+.status__detail--calendar::before {
+    content: "\f073";
+    color: rgb(190, 194, 194);
+}
+
+.status__detail--tag::before {
+    content: "\f02b";
+    color: rgb(190, 194, 194);
+}
+
+.status__detail--clock::before {
+    content: "\f017";
+    color: rgb(190, 194, 194);
+}

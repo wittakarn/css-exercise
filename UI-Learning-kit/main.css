@@ -36,7 +36,6 @@
 }
 
 .container__search--criteria::before {
-    content: "\f002";
     font-size: 30px;
     position: absolute;
     color: rgb(233, 74, 74);
@@ -212,6 +211,7 @@
 
 .container__status {
     width: 180px;
+    vertical-align: top;
 }
 
 .status__name {
@@ -230,22 +230,28 @@
     box-shadow: 0px 6px 13px -10px black
 }
 
-.status__name--used-space::before {
-    content: "\f24d";
+.status--warn::before {
     background: linear-gradient(to bottom left, rgb(249, 142, 38), rgb(252, 163, 55));
 }
 
-.status__name--revenue::before {
-    content: "\f24d";
+.status--normal::before {
     background: linear-gradient(to bottom left, rgb(72, 160, 76), rgb(102, 184, 106));
+}
+
+.status--alert::before {
+    background: linear-gradient(to bottom left, rgb(277, 60, 60), rgb(236, 81, 81));
 }
 
 .status__value {
     font-size: 20px;
 }
 
-.status__value--more-space {
+.status__value--extra-space {
     margin: 25px 0px 10px 0px;
+}
+
+.status__value--normal-space {
+    margin: 0px 0px 15px 0px;
 }
 
 .status__detail {
@@ -267,6 +273,17 @@
     content: "\f073";
     color: rgb(190, 194, 194);
 }
+
+.status__detail--tag::before {
+    content: "\f02b";
+    color: rgb(190, 194, 194);
+}
+
+.status__detail--clock::before {
+    content: "\f017";
+    color: rgb(190, 194, 194);
+}
+
 
 @media only screen and (max-width: 1100px) {
     h1.paragraph,
