@@ -27,9 +27,9 @@
   </div>
   <!--start your code here -->
   <div class="exercise exercise__1">
-    <div class="container container--nowrap">
-      <div class="container container__menu-panel">
-        <div>CREATIVE TIM</div>
+    <div class="container container--flex">
+      <div class="container container__menu-panel shadow-box--right">
+        <div class="menu__header">CREATIVE TIM</div>
         <ul>
           <li class="menu__item">
             <div class="font-awesome__icon menu__icon menu__icon--dashboard">
@@ -66,16 +66,24 @@
               <div class="menu__name">Icons</div>
             </div>
           </li>
+
+          <div class="menu__item menu__item--footer">
+            <div class="font-awesome__icon menu__icon menu__icon--cube">
+              <div class="menu__name">Upgrade to PRO</div>
+            </div>
+          </div>
         </ul>
       </div>
       <div class="container container__content">
-        <div class="container container__search">
+        <div class="container container__search shadow-box--bottom">
           <h1 class="paragraph paragraph--welcome text--white">Welcome to Agoda</h1>
           <h3 class="paragraph text--white">The effortless engine for Hotels and Accomodations</h3>
+          <div class="container__become-a-host">
+            <div class="become-a-host__text text--white">Become a Host</div>
+          </div>
           <div class="paragraph paragraph--search">
             <div class="font-awesome__icon container__search--criteria">
-              <input class="search__textbox" type="text" />
-              <button class="search__button text--white">Search</button>
+              <input class="search__textbox shadow-box--bottom" type="text" /><button class="search__button text--white">Search</button>
             </div>
             <div class="search__example text--white">Trending search: Tokyo, Hong Kong, New York</div>
           </div>
@@ -84,21 +92,22 @@
           <ul class="personal__group">
             <li class="personal__panel">
               <div class="personal__detail personal__detail--gray text--gray-light">
+                <div class="personal_privacy text--white">Public</div>
                 <div class="personal__image">
                   <img class="personal-image image--circle" src="assets/person.png">
                 </div>
                 <div class="personal__company text--black">KIEV. UKRAINE</div>
                 <div class="personal__name text--white">Ilya Dmitruk</div>
                 <div class="personal__description">
-                  <p class="margin--auto">
+                  <span class="margin--auto">
                     I'm
                     <em class="text--white">#founder</em> and
                     <em class="text--white">#designer</em> at cardsaround. Connect me for
                     <em class="text--white">#in-vestment #productdesign</em>
-                  </p>
+                  </span>
                 </div>
               </div>
-              <div class="personal__contact-group">
+              <div class="personal__contact-group shadow-box--bottom">
                 <div class="personal__contact personal__contact--call">
                   Call
                 </div><div class="personal__contact personal__contact--linked-in">
@@ -108,19 +117,20 @@
             </li>
             <li class="personal__panel">
               <div class="personal__detail personal__detail--yellow text--gray">
+                <div class="personal_privacy text--black">Public</div>
                 <div class="personal__image">
                   <img class="personal-image image--circle" src="assets/person.png">
                 </div>
                 <div class="personal__company">HENRY'S VIDEO GAMES</div>
                 <div class="personal__name text--black">Michael Rodriguez</div>
                 <div class="personal__description">
-                  <p class="margin--auto">
+                  <span class="margin--auto">
                     <em class="text--black">#executivevicepresident,</em> Devices & Services
                     <em class="text--black">#henryvideo-games.</em> Ice cream lover.
-                  </p>
+                  </span>
                 </div>
               </div>
-              <div class="personal__contact-group">
+              <div class="personal__contact-group shadow-box--bottom">
                 <div class="personal__contact personal__contact--call">
                   Call
                 </div><div class="personal__contact personal__contact--linked-in">
@@ -130,22 +140,23 @@
             </li>
             <li class="personal__panel">
               <div class="personal__detail personal__detail--black text--white">
+                  <div class="personal_privacy text--white">Personal</div>
                 <div class="personal__image">
                   <img class="personal-image image--circle" src="assets/person.png">
                 </div>
                 <div class="personal__company text--gray">GOOGLE INC.</div>
                 <div class="personal__name">Jakov Green</div>
                 <div class="personal__description">
-                  <p class="margin--auto">
+                  <span class="margin--auto">
                     <em>#Objective-C</em>
                     <em>#Java</em>
                     <em>#cocoa</em>
                     <em>#c++</em>
                     <em>#developer</em>
-                  </p>
+                  </span>
                 </div>
               </div>
-              <div class="personal__contact-group">
+              <div class="personal__contact-group shadow-box--bottom">
                 <div class="personal__contact personal__contact--call">
                   Call
                 </div><div class="personal__contact personal__contact--linked-in">

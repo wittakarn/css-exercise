@@ -1,44 +1,84 @@
+.container__menu-panel {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("assets/bg.png");
+}
+
+.menu__header {
+    margin: 0px 30px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(231, 233, 234);
+    line-height: 60px;
+}
+
 .menu__item {
     position: relative;
+}
+
+.menu__icon {
+    margin: 8px 35px;
+    border-radius: 4px;
+}
+
+.menu__icon:hover {
+    background-color: rgb(155, 47, 174);
+    color: white;
+    cursor: pointer;
 }
 
 .menu__icon::before {
     font-size: 20px;
     position: absolute;
     color: rgb(169, 175, 187);
-    top: 25px;
-    left: 25px;
+    top: 8px;
+    left: 55px;
+}
+
+.menu__icon:hover::before {
+    color: white;
 }
 
 .menu__name {
     display: inline-block;
-    margin: 30px 60px;
+    margin: 12px 55px;
 }
 
 .menu__icon--dashboard::before {
-    content: "\f009"
+    content: "\f009";
 }
 
 .menu__icon--user::before {
-    content: "\f007"
+    content: "\f007";
 }
 
 .menu__icon--clipboard::before {
-    content: "\f328"
+    content: "\f328";
 }
 
 .menu__icon--clone::before {
-    content: "\f24d"
+    content: "\f24d";
 }
 
 .menu__icon--dot-circle::before {
-    content: "\f192"
+    content: "\f192";
 }
 
 .menu__icon--map::before {
-    content: "\f041"
+    content: "\f041";
 }
 
 .menu__icon--bell::before {
-    content: "\f0f3"
+    content: "\f0f3";
+}
+
+.menu__icon--cube::before {
+    top: 15px;
+    content: "\f1b2";
+}
+
+.menu__item--footer {
+    position: absolute;
+    bottom: 0;
 }

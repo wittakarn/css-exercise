@@ -13,8 +13,7 @@ h3 {
     margin: 0 auto;
 }
 
-.container--nowrap {
-    white-space: nowrap;
+.container--flex {
     display: flex;
     flex-direction: row;
 }
@@ -47,4 +46,16 @@ h3 {
 
 .margin--auto {
     margin: auto;
+}
+
+.border--radius-4 {
+    border-radius: 4px;
+}
+
+.shadow-box--bottom {
+    box-shadow: 0px 6px 10px -10px black
+}
+
+.shadow-box--right {
+    box-shadow: 6px 0px 10px -10px black
 }
