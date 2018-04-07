@@ -1,6 +1,6 @@
 /*This is where magic happens*/
 
-.exercise__1 {
+.exercise {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -134,9 +134,6 @@
 
 .personal__panel {
     width: 250px;
-    margin: 30px;
-    display: inline-block;
-    white-space: normal;
 }
 
 .personal_privacy {
@@ -208,19 +205,67 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1100px) {
-    h1.paragraph,
-    h3.paragraph,
-    .container__become-a-host {
-        display: none;
-    }
-    .container__content .container__search {
-        height: 110px;
-    }
-    .container__search .paragraph--search {
-        margin: 0px 5%;
-        padding-top: 15px;
-    }
+.container__panel {
+    position: relative;
+    margin: 12px;
+}
+
+.container__status {
+    width: 180px;
+}
+
+.status__name {
+    font-size: 12px;
+}
+
+.status__name::before {
+    width: 70px;
+    height: 70px;
+    top: -27px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 4px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0px 6px 13px -10px black
+}
+
+.status__name--used-space::before {
+    content: "\f24d";
+    background: linear-gradient(to bottom left, rgb(249, 142, 38), rgb(252, 163, 55));
+}
+
+.status__name--revenue::before {
+    content: "\f24d";
+    background: linear-gradient(to bottom left, rgb(72, 160, 76), rgb(102, 184, 106));
+}
+
+.status__value {
+    font-size: 20px;
+}
+
+.status__value--more-space {
+    margin: 25px 0px 10px 0px;
+}
+
+.status__detail {
+    padding: 8px 0px 0px 20px;
+    border-top: 1px solid rgb(190, 194, 194);
+    font-size: 11px;
+}
+
+.status__detail::before {
+    left: 0px;
+}
+
+.status__detail--alert::before {
+    content: "\f071";
+    color: rgb(233, 74, 74);
+}
+
+.status__detail--calendar::before {
+    content: "\f073";
+    color: rgb(190, 194, 194);
 }
 
 @media only screen and (max-width: 1100px) {
@@ -245,7 +290,6 @@
     .search__textbox {
         width: calc(70% - 40px);
     }
-    
     .search__button {
         width: 30%;
     }

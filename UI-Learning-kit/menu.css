@@ -30,7 +30,6 @@
 
 .menu__icon::before {
     font-size: 20px;
-    position: absolute;
     color: rgb(169, 175, 187);
     top: 8px;
     left: 20%;
