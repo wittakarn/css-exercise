@@ -209,6 +209,10 @@
     margin: 12px;
 }
 
+.container__panel--activity {
+    width: 220px;
+}
+
 .container__status {
     width: 180px;
     vertical-align: top;
@@ -251,7 +255,7 @@
 }
 
 .status__value--normal-space {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 .status__detail {
@@ -284,6 +288,20 @@
     color: rgb(190, 194, 194);
 }
 
+.activity__name {
+    margin-top: 130px;
+}
+
+.actiity__value {
+    font-size: 12px;
+}
+
+.activity__image {
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    top: -140px;
+}
 
 @media only screen and (max-width: 1100px) {
     h1.paragraph,
