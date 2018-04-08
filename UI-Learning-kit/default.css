@@ -78,10 +78,20 @@ h3 {
     box-shadow: 6px 0px 10px -10px black
 }
 
+.container__content {
+    display: inline-block;
+    width: 80%;
+}
+
 .container__card {
-    margin: 30px;
+    margin: 30px 0px 30px 30px;
     display: inline-block;
     white-space: normal;
+}
+
+.container__panel {
+    position: relative;
+    margin: 12px 16px;
 }
 
 .icon--search::before {
