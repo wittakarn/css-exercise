@@ -38,6 +38,14 @@ h3 {
     color: white;
 }
 
+.text--dark-brown {
+    color: rgb(119, 119, 119);
+}
+
+.text--dark-gray {
+    color: rgb(170, 170, 170);
+}
+
 .text--gray {
     color: rgb(133, 120, 0);
 }
@@ -54,6 +62,38 @@ h3 {
     color: rgb(225, 194, 231);
 }
 
+.text--blue {
+    color: rgb(37, 131, 221);
+}
+
+.text--orange {
+    color: rgb(241, 122, 31);
+}
+
+.text--red {
+    color: rgb(234, 86, 95);
+}
+
+.text--green-oval {
+    color: rgb(58, 157, 153);
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+.text--dark-blue {
+    color: rgb(112, 124, 243);
+}
+
+.text--line-through {
+    text-decoration: line-through;
+}
+
+.text--size-40 {
+    font-size: 40px;
+}
+
 .image--circle {
     border-radius: 50%;
 }
@@ -66,8 +106,28 @@ h3 {
     border-radius: 4px;
 }
 
+.border--gray {
+    border: 1px solid rgb(210, 220, 220);
+}
+
 .shadow-box--gray-all {
     box-shadow: 0px 0px 5px gray
+}
+
+.border--dark-blue {
+    border: 1px solid rgb(112, 124, 243);
+}
+
+.background-color--white {
+    background-color: white;
+}
+
+.background-color--blue {
+    background-color: rgb(37, 131, 221);
+}
+
+.background-color--red {
+    background-color: rgb(233, 74, 74);
 }
 
 .shadow-box--bottom {
@@ -89,77 +149,17 @@ h3 {
     white-space: normal;
 }
 
+.container__margin--default {
+    margin: 15px;
+}
+
+.container__margin--10 {
+    margin: 10px;
+}
+
 .container__panel {
     position: relative;
     margin: 12px 16px;
-}
-
-.icon--search::before {
-    content: "\f002";
-}
-
-.icon--dashboard::before {
-    content: "\f009";
-}
-
-.icon--user::before {
-    content: "\f007";
-}
-
-.icon--clipboard::before {
-    content: "\f328";
-}
-
-.icon--clone::before {
-    content: "\f24d";
-}
-
-.icon--dot-circle::before {
-    content: "\f192";
-}
-
-.icon--map::before {
-    content: "\f041";
-}
-
-.icon--bell::before {
-    content: "\f0f3";
-}
-
-.icon--cube::before {
-    content: "\f1b2";
-}
-
-.icon--clone::before {
-    content: "\f24d";
-}
-
-.icon--home::before {
-    content: "\f015";
-}
-
-.icon--alert-circle::before {
-    content: "\f06a";
-}
-
-.icon--twitter::before {
-    content: "\f044";
-}
-
-.icon--alert::before {
-    content: "\f071";
-}
-
-.icon--calendar::before {
-    content: "\f073";
-}
-
-.icon--tag::before {
-    content: "\f02b";
-}
-
-.icon--clock::before {
-    content: "\f017";
 }
 
 .status__detail--alert::before {
@@ -180,4 +180,12 @@ h3 {
 .status__detail--clock::before {
     content: "\f017";
     color: rgb(190, 194, 194);
+}
+
+.pill--orange {
+    background-color: rgb(241, 122, 31);
+}
+
+.pill--orange::after {
+    border-top: 16px solid rgb(241, 122, 31);
 }

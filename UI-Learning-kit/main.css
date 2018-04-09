@@ -178,7 +178,6 @@
 .personal__contact {
     display: inline-block;
     width: calc(50% - 2px);
-    border: 1px solid rgb(210, 220, 220);
     line-height: 50px;
     text-align: center;
 }
@@ -286,4 +285,201 @@
     width: 220px;
     height: 130px;
     top: -140px;
+}
+
+.container__search-result {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container__recommended {
+    display: inline-block;
+    width: 280px;
+    background-color: rgb(233, 233, 233);
+}
+
+.container__search-card {
+    display: inline-block;
+    position: relative;
+    width: 810px;
+}
+
+.hotel--name {
+    font-size: 16px
+}
+
+.hotel--star {
+    display: inline-block;
+    color: gold;
+}
+
+.hotel--position {
+    display: inline-block;
+    padding-left: 15px;
+    margin: 3px 0px 8px 0px;
+    font-size: 12px;
+    position: relative;
+}
+
+.hotel--position::before {
+    left: 4px;
+}
+
+.container__hotel-image--sub {
+    margin-top: -3px;
+    font-size: 0px;
+}
+
+.container__hotel-card--description {
+    width: 380px;
+    height: 268px;
+    vertical-align: top;
+    background-color: rgb(247, 247, 247);
+}
+
+.container__hotel-card--price {
+    width: 169px;
+    margin: 10px 10px 0px 0px;
+    text-align: right;
+}
+
+.container__hotel {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hotel-image--main {
+    width: 245px;
+    height: 195px;
+}
+
+.hotel-image--sub {
+    width: 80px;
+    height: 70px;
+    vertical-align: middle;
+    margin: 0px 1px;
+}
+
+.container__pill-item {
+    height: 17px;
+    background-color: white;
+}
+
+.pill-item {
+    position: relative;
+    font-size: 11px;
+    border-right: 1px solid rgb(190, 194, 194);
+    padding-right: 5px;
+    margin-left: 18px;
+    vertical-align: top;
+}
+
+.pill-item::before {
+    top: 0px;
+    left: -14px;
+    font-size: 9px;
+}
+
+.pill-item--last {
+    border: none;
+    margin: initial;
+}
+
+.pill-item--label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    border-radius: 2px 0px 0px 2px;
+    margin: initial;
+    border: none;
+    padding-right: 2px;
+    vertical-align: top;
+}
+
+.pill-item--label::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: -6px;
+    border-right: 6px solid transparent;
+}
+
+.hotel--exceptional {
+    width: 195px;
+    height: 25px;
+    margin: 13px 0px;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.hotel--booking-competitor {
+    margin: 13px 0px;
+    font-size: 11px;
+}
+
+.review {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.review--score {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    border-radius: 4px;
+    margin: 2px 0px 0px 6px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.review--score::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -6px;
+    border-left: 10px solid transparent;
+    border-top: 13px solid rgb(37, 131, 221);
+    border-radius: 3px 0px 3px 3px;
+}
+
+.promotion-reduce {
+    position: relative;
+    width: 140px;
+    right: -50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.promotion-reduce--label {
+    margin: 5px 0px 0px 0px;
+}
+
+.hotel-price--reduce-1 {
+    font-size: 18px;
+}
+
+.exclamation--label {
+    position: relative;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.exclamation--label::before {
+    left: -15px;
+}
+
+.last-room--notification {
+    font-size: 11px;
 }
