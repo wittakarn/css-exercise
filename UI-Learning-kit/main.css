@@ -483,3 +483,8 @@
 .last-room--notification {
     font-size: 11px;
 }
+
+.recommended-score {
+    border-right: 1px solid rgb(210, 220, 220);
+    width: 89px;
+}

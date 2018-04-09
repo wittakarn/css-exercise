@@ -90,6 +90,10 @@ h3 {
     text-decoration: line-through;
 }
 
+.text--size-12 {
+    font-size: 12px;
+}
+
 .text--size-40 {
     font-size: 40px;
 }
