@@ -86,6 +86,10 @@ h3 {
     color: rgb(231, 23, 46);
 }
 
+.text--green {
+    color: rgb(103, 196, 89);
+}
+
 .text--green-oval {
     color: rgb(58, 157, 153);
 }
@@ -128,6 +132,14 @@ h3 {
 
 .margin--auto {
     margin: auto;
+}
+
+.margin--top-7 {
+    margin-top: 7px;
+}
+
+.margin--bottom-7 {
+    margin-bottom: 7px;
 }
 
 .border--radius-4 {
@@ -218,10 +230,26 @@ h3 {
     color: rgb(190, 194, 194);
 }
 
+.pill-item.pill-item--last {
+    border: none;
+}
+
+.pill-item.pill-item--more {
+    margin: 0px
+}
+
 .pill--orange {
     background-color: rgb(241, 122, 31);
 }
 
 .pill--orange::after {
     border-top: 16px solid rgb(241, 122, 31);
+}
+
+.pill--green {
+    background-color: rgb(103, 196, 89);
+}
+
+.pill--green::after {
+    border-top: 16px solid rgb(103, 196, 89);
 }
