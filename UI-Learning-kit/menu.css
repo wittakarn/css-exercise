@@ -39,7 +39,7 @@
     color: white;
 }
 
-.menu__name {
+.menu--name {
     display: inline-block;
     margin: 12px 25%;
 }

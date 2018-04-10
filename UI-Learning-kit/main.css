@@ -206,11 +206,11 @@
     vertical-align: top;
 }
 
-.status__name {
+.status--name {
     font-size: 12px;
 }
 
-.status__name::before {
+.status--name::before {
     width: 70px;
     height: 70px;
     top: -27px;
@@ -246,45 +246,45 @@
     margin: 0px 0px 10px 0px;
 }
 
-.status__detail {
+.status-detail {
     padding: 8px 0px 0px 20px;
     border-top: 1px solid rgb(190, 194, 194);
     font-size: 11px;
 }
 
-.status__detail::before {
+.status-detail::before {
     left: 0px;
 }
 
-.status__detail--alert::before {
+.status-detail--alert::before {
     content: "\f071";
     color: rgb(233, 74, 74);
 }
 
-.status__detail--calendar::before {
+.status-detail--calendar::before {
     content: "\f073";
     color: rgb(190, 194, 194);
 }
 
-.status__detail--tag::before {
+.status-detail--tag::before {
     content: "\f02b";
     color: rgb(190, 194, 194);
 }
 
-.status__detail--clock::before {
+.status-detail--clock::before {
     content: "\f017";
     color: rgb(190, 194, 194);
 }
 
-.activity__name {
+.activity--name {
     margin-top: 130px;
 }
 
-.actiity__value {
+.actiity--value {
     font-size: 12px;
 }
 
-.activity__image {
+.activity--image {
     position: absolute;
     width: 220px;
     height: 130px;
