@@ -122,6 +122,18 @@ h3 {
     font-size: 12px;
 }
 
+.text--size-14 {
+    font-size: 14px;
+}
+
+.text--size-20 {
+    font-size: 20px;
+}
+
+.text--size-28 {
+    font-size: 28px;
+}
+
 .text--size-40 {
     font-size: 40px;
 }
@@ -154,12 +166,28 @@ h3 {
     border: 1px solid rgb(112, 124, 243);
 }
 
+.border--blue {
+    border: 1px solid rgb(37, 131, 221);
+}
+
+.border--red {
+    border: 1px solid rgb(233, 74, 74);;
+}
+
 .border--dark-blue {
     border: 1px solid rgb(40, 23, 133);
 }
 
 .background-color--white {
     background-color: white;
+}
+
+.background-color--gray {
+    background-color: rgb(247, 247, 247);
+}
+
+.background-color--light-orange {
+    background-color: rgb(255, 249, 242);
 }
 
 .background-color--blue {
@@ -208,6 +236,11 @@ h3 {
 .container__panel {
     position: relative;
     margin: 12px 16px;
+}
+
+.button--no-border {
+    border: none;
+    cursor: pointer;
 }
 
 .status__detail--alert::before {

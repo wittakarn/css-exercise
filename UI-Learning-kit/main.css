@@ -333,7 +333,6 @@
     width: 380px;
     height: 268px;
     vertical-align: top;
-    background-color: rgb(247, 247, 247);
 }
 
 .container__hotel-card--price {
@@ -380,7 +379,7 @@
     font-size: 9px;
 }
 
-.pill-item--label {
+.label--pill-item {
     position: relative;
     display: inline-block;
     width: 60px;
@@ -392,7 +391,7 @@
     vertical-align: top;
 }
 
-.pill-item--label::after {
+.label--pill-item::after {
     content: "";
     position: absolute;
     display: inline-block;
@@ -423,7 +422,7 @@
     font-size: 12px;
 }
 
-.review--score {
+.review-score {
     display: inline-block;
     position: relative;
     width: 50px;
@@ -436,7 +435,7 @@
     text-align: center;
 }
 
-.review--score::before {
+.review-score::before {
     content: "";
     position: absolute;
     display: inline-block;
@@ -457,7 +456,7 @@
     text-align: center;
 }
 
-.promotion-reduce--label {
+.label--promotion-reduce {
     margin: 5px 0px 0px 0px;
 }
 
@@ -465,13 +464,13 @@
     font-size: 18px;
 }
 
-.exclamation--label {
+.label--exclamation {
     position: relative;
     display: inline-block;
     font-size: 11px;
 }
 
-.exclamation--label::before {
+.label--exclamation::before {
     left: -15px;
 }
 
@@ -532,7 +531,7 @@
     border-bottom: 1px solid rgb(210, 220, 220);
 }
 
-.deals--early {
+.deals__label {
     position: relative;
     display: inline-block;
     font-size: 16px;
@@ -613,8 +612,185 @@
     vertical-align: top;
 }
 
-.recommended__button--book {
+.button--recommended-book {
     padding: 10px;
+}
+
+.container__hotel-detail {
+    margin: 40px;
+}
+
+.container__hotel-description--part1 {
+    display: inline-block;
+    width: 70%;
+}
+
+.container__hotel-description--part2 {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.hotel-name--text {
+    margin: 0px 7px 0px 0px;
+}
+
+.hotel-star {
+    position: relative;
+    top: -4px;
+}
+
+.review-score--hotel {
+    width: 60px;
+    height: 50px;
+    margin: 8px 0px 0px 10px;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.hotel-review--total::before {
+    color: rgb(103, 196, 89);
+}
+
+.container__hotel-description {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(210, 220, 220);
+}
+
+.accomodation {
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+}
+
+.accomodation__label {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.accomodation--item {
+    width: 140px;
+    margin: 70px 30px 0px 30px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.accomodation--item::before {
+    top: -45px;
+    left: 56px;
+    font-size: 26px;
+    color: rgb(103, 196, 89);
+}
+
+.container--price-alert {
+    margin: 30px 0px 0px 0px;
     border: none;
+}
+
+.button--alert-price {
+    position: relative;
+    padding: 15px 20px 15px 30px;
+    margin-bottom: 10px;
     cursor: pointer;
+}
+
+.button--alert-price::before {
+    left: 10px;
+}
+
+.label--no-tax {
+    position: relative;
+    padding-left: 17px;
+}
+
+.label--no-tax::before {
+    left: 3px;
+}
+
+.container__label--filter {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(210, 220, 220);
+}
+
+.container__hotel-description-options {
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.hotel-options {
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px 10px 35px;
+    border-radius: 20px;
+}
+
+.hotel-options::before {
+    left: 10px;
+}
+
+.container__hotel-description--more-detail {
+    margin-bottom: 15px;
+}
+
+.hotel-more-detail {
+    display: inline-block;
+    position: relative;
+    width: 290px;
+    border-right: 1px solid rgb(241, 122, 31);
+    margin: 40px 0px 40px 65px;
+}
+
+.hotel-more-detail::before {
+    left: -40px;
+    top: -2px;
+    font-size: 28px;
+    color: rgb(241, 122, 31);
+}
+
+.hotel-more-detail--border-none {
+    border: none;
+}
+
+.hotel-more-detail--all-room-link {
+    display: block;
+}
+
+.hotel-summary__image {
+    width: 160px;
+    height: 121px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.container__hotel-summary {
+    display: inline-block;
+}
+
+.container__hotel-summary--image {
+    width: calc(60% - 1px);
+    border-right: 1px solid rgb(210, 220, 220);
+}
+
+.container__hotel-summary--status {
+    width: calc(40% - 10px);
+    margin-left: 10px;
+}
+
+.hotel-summary--room-type {
+    vertical-align: top;
+    margin: 10px;
+}
+
+.hotel-summary--sold-out {
+    padding: 5px 15px;
+    transform: rotate(-20deg);
+    width: 80px;
+}
+
+.hotel-summary--description {
+    width: 280px;
+    margin: 10px;
+    vertical-align: middle;
 }
