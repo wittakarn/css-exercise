@@ -293,6 +293,8 @@
 
 .container__search-result {
     display: inline-block;
+    width: 810px;
+    margin: 0px 15px 15px 15px;
     vertical-align: top;
 }
 
@@ -306,7 +308,7 @@
 .container__search-card {
     display: inline-block;
     position: relative;
-    width: 810px;
+    margin-top: 15px;
 }
 
 .hotel--name {
@@ -503,7 +505,7 @@
     line-height: 40px;
 }
 
-.container__recommended-by {
+.container--recommended-by {
     display: inline-block;
     width: 205px;
     margin: 10px 10px 0px 0px;
@@ -526,20 +528,19 @@
     font-size: 20px;
 }
 
-.container__instant-booking--detail {
+.container--instant-booking-detail {
     width: 260px;
     left: 50px;
     display: block;
     position: relative;
 }
 
-.container__room-recommended {
+.container--room-recommended {
     padding: 7px 0px;
     border-bottom: 1px solid rgb(210, 220, 220);
 }
 
 .container__deals {
-    padding-bottom: 7px;
     border-bottom: 1px solid rgb(210, 220, 220);
 }
 
@@ -560,4 +561,72 @@
     right: 5px;
     font-size: 14px;
     color: rgb(96, 167, 30);
+}
+
+.container__group--recommended {
+    padding-bottom: 7px;
+}
+
+.first-booking__label {
+    display: inline-block;
+}
+
+.first-booking__label--free-night {
+    position: relative;
+    width: 70px;
+    padding: 3px 7px;
+    margin: 16px 7px;
+    border-style: dashed;
+    vertical-align: top;
+}
+
+.first-booking__label--free-night::before {
+    content: "\f0c4";
+    top: -9px;
+    color: white;
+}
+
+.first-booking__label--detail {
+    width: 212px;
+    margin: 15px 15px 15px 0px;
+}
+
+.container__room-detail {
+    display: inline-block;
+    width: 240px;
+}
+
+.container__room-detail--price {
+    width: 60px;
+    top: -5px;
+    text-align: right;
+    position: relative;
+}
+
+.early-deals--apply {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.early-deals--detail {
+    display: inline-block;
+    width: 168px;
+    text-align: right;
+}
+
+.book-warning {
+    display: inline-block;
+    width: 206px;
+}
+
+.book-warning--button {
+    width: 100px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.recommended__button--book {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }

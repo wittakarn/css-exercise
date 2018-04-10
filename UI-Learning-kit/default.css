@@ -66,12 +66,24 @@ h3 {
     color: rgb(37, 131, 221);
 }
 
+.text--dark-blue {
+    color: rgb(40, 23, 133);
+}
+
+.text--light-purple {
+    color: rgb(112, 124, 243);
+}
+
 .text--orange {
     color: rgb(241, 122, 31);
 }
 
-.text--red {
+.text--tomato {
     color: rgb(234, 86, 95);
+}
+
+.text--red {
+    color: rgb(231, 23, 46);
 }
 
 .text--green-oval {
@@ -82,12 +94,16 @@ h3 {
     font-weight: bold;
 }
 
-.text--dark-blue {
-    color: rgb(112, 124, 243);
+.text--italic {
+    font-style: italic;
 }
 
 .text--line-through {
     text-decoration: line-through;
+}
+
+.text--underline {
+    text-decoration: underline;
 }
 
 .text--size-10 {
@@ -122,8 +138,12 @@ h3 {
     border: 1px solid rgb(210, 220, 220);
 }
 
-.border--dark-blue {
+.border--light-purple {
     border: 1px solid rgb(112, 124, 243);
+}
+
+.border--dark-blue {
+    border: 1px solid rgb(40, 23, 133);
 }
 
 .background-color--white {
@@ -136,6 +156,10 @@ h3 {
 
 .background-color--red {
     background-color: rgb(233, 74, 74);
+}
+
+.background--dark-blue {
+    background-color: rgb(40, 23, 133);
 }
 
 .shadow-box--gray-all {
@@ -165,7 +189,7 @@ h3 {
     margin: 15px;
 }
 
-.container__margin--10 {
+.container--margin-10 {
     margin: 10px;
 }
 
