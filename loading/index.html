@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="UI Exercise Starter Kits">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="all.css" rel="stylesheet" type="text/css" />
+    <title>Loading example</title>
+
+    <script>
+        setTimeout(function () {
+            document.getElementById("container").classList.add("container--loaded");
+            document.getElementById("container").classList.remove("container--loading");
+        }, 1500);
+
+        function onload(){
+            document.getElementById("container").classList.add("container--loading")
+        }
+    </script>
+</head>
+
+<body onload="onload();">
+    <div id="container" class="container">
+        <div class="loading">
+            <img class="logo" src="SQUARE STAR 01.jpg"></img>
+            <div class="spinner"></div>
+        </div>
+        <div class="container container-content">
+            <H1>Hello world!!!</H1>
+            <H2>Hello world!!!</H2>
+            <H3>Hello world!!!</H3>
+            <H4>Hello world!!!</H4>
+            <H5>Hello world!!!</H5>
+        </div>
+    </div>
+</body>
+
+</html>
